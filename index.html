@@ -27,11 +27,16 @@
                 <li><a class="link" href="">Portfolio</a></li>
                 <li><a class="link" href="">Contacts</a></li>
             </ul>
+        <button class="header-menu-btn">
+            <svg class="menu-toggle-picture" width="24" height="24">
+                <use class="menu-toggle-icon" href="./images/icons.svg#icon-lines"></use>
+            </svg>
+        </button>
         </nav>
         <address class="address">
             <ul class="contacts">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a><br /></li>
-                <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a><br /></li>
+                <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
         </div>
@@ -44,6 +49,8 @@
             <button class="button" type="button">Order Service</button>
         </div>
         </section>
+
+
         <section class="feature-section">
             <div class="container">
             <h2 class="hidden">Our features</h2>
@@ -91,12 +98,18 @@
             </ul>
                 </div>
         </section>
+
+
         <section class="section-team">
             <div class="team-section">
             <h2 class="team">Our Team</h2>
             <ul class="team-list">
                 <li class="team-cards">
-                    <img src="./images/ourteam/MarkGuerrero.jpg" alt="MarkGuerrero" width="264" />
+                <img class="team-image" 
+                srcset="
+                                  ./images/ourteam/MarkGuerrero.jpg     1x,
+                                  ./images/ourteam/MarkGuerrero_@2x.jpg 2x
+                                " src="./images/ourteam/MarkGuerrero.jpg" alt="Mark Guerrero" width="264" />
                     <div class="card-block">
                     <h3 class="team-members">Mark Guerrero</h3>
                     <p class="team-paragh">Product Designer</p>
@@ -134,7 +147,10 @@
                 </li>
 
                 <li class="team-cards">
-                    <img src="./images/ourteam/TomFord.jpg" alt="TomFord" width="264" />
+                <img class="team-image" srcset="
+                                  ./images/ourteam/TomFord.jpg     1x,
+                                  ./images/ourteam/TomFord_@2x.jpg 2x
+                                " src="./images/ourteam/TomFord.jpg" alt="Tom Ford" width="264" />
                     <div class="card-block">
                     <h3 class="team-members">Tom Ford</h3>
                     <p class="team-paragh">Frontend Developer</p>
@@ -172,7 +188,10 @@
                     </div>
                 </li>
                 <li class="team-cards">
-                    <img src="./images/ourteam/CamilaGarcia.jpg" alt="CamilaGarcia" width="264" />
+                    <img class="team-image" srcset="
+                                      ./images/ourteam/CamilaGarcia.jpg     1x,
+                                      ./images/ourteam/CamilaGarcia_@2x.jpg 2x
+                                    " src="./images/ourteam/CamilaGarcia.jpg" alt="Camila Garcia" width="264" />
                     <div class="card-block">
                     <h3 class="team-members">Camila Garcia</h3>
                     <p class="team-paragh">Marketing</p>
@@ -211,7 +230,10 @@
 
                 </li>
                 <li class="team-cards">
-                    <img src="./images/ourteam/DanielWilson.jpg" alt="DanielWilson" width="264" />
+                    <img class="team-image" srcset="
+                                      ./images/ourteam/DanielWilson.jpg     1x,
+                                      ./images/ourteam/DanielWilson_@2x.jpg 2x
+                                    " src="./images/ourteam/DanielWilson.jpg" alt="Daniel Wilson" width="264" />
                 <div class="card-block">
                     <h3 class="team-members">Daniel Wilson</h3>
                     <p class="team-paragh">UI Designer</p>
